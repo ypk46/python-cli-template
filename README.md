@@ -69,9 +69,5 @@ A template for building Python CLIs.
 6. Now you can run your command:
 
    ```bash
-   # If you install the dependencies through "pip install .", use:
-   python -m cli sum --num1 14 --num2 16
-
-   # If you install the package itself through "pip install -e .", use:
    pycli sum --num1 14 --num2 16
    ```
